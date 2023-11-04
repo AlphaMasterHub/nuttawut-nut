@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Holtwood One SC', serif;
+    margin: 0 auto;
+    padding: auto;
+}
+header{
+    width: 1093px;
+}
+.bgheader{
+    position: absolute;
+    z-index: 1;
+    top: -8px;
+    left: 600px;
+
+}
+nav{
+    height: 83px;
+    display: flex;
+    width: 1093px;
+    height: 44px;
+    position: absolute;
+    z-index: 5;
+    align-items: center;/*จัดกึ่งกลางเเนวตั้ง*/
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    list-style: none;/*ลบจุดออก*/
+    width: 400px;
+}
+nav ul li{
+    margin-left: 30px;
+    
+}
+a{
+    text-decoration: none;/*เอาเส้นใต้ลิง์ออก*/
+    color: rgba(255, 255, 255, 1);
+}
+.me{
+    
+    margin-top: 194px;
+    margin-left: 103px;
+}
+.hello{
+    position: absolute;
+    top: 500px;
+    right: 30px;
+}
+.imgeducation{
+    display: flex;
+}
+.educationtext{
+    color: #AD4002;
+    font-size: 40px;
+    font-family: Holtwood One SC;
+    font-weight: 400;
+    word-wrap: break-word
+}
+.textheadaboutme{
+    color: #AD4002;
+    font-size: 40px;
+    font-family: Holtwood One SC;
+    font-weight: 400;
+    word-wrap: break-word
+}
+.PORTFOLIO{
+    color: #AD4002;
+}
+
+.pargrababoutme{
+    
+    color: black;
+    font-size: 16px;
+    font-family: Holtwood One SC;
+    font-weight: 400;
+    word-wrap: break-word
+}
+.education{
+    
+    color: #AD4002;
+    font-size: 40px;
+    font-family: Holtwood One SC;
+    font-weight: 400;
+    word-wrap: break-word
+}
+.bgaboutme{
+    position: relative;
+    top: -20px;
+    z-index: 1;
+}
+.containeraboutmeandeducation{
+    margin-left: 156px;
+    z-index: 10;
+    position: absolute;
+}
+
+    
+
+.containeractivity{
+    position: relative;
+}
+.hactivity{
+    color: #AD4002;
+    font-size: 40px;
+    font-family: Holtwood One SC;
+    font-weight: 400;
+    margin-left: 156px;
+    position: absolute;
+    top: -34px;
+    word-wrap: break-word
+}
+.hcontact{
+    color: white;
+    font-size: 40px;
+    font-family: Holtwood One SC;
+    font-weight: 400;
+    position: absolute;
+    top: 100px;
+    z-index: 3;
+    margin-left: 50px;
+    word-wrap: break-word
+    
+    
+    
+}
+.pcontact{
+    color: white;
+    font-size: 16px;
+    font-family: Holtwood One SC;
+    font-weight: 400;
+    position: absolute;
+    top: 200px;
+    margin-left: 50px;
+    word-wrap: break-word
+}
+.bgcontact{
+    z-index: 2;
+}
+.containercontact{
+    position: relative;
+}
+.slideshow{
+    
+    max-width: 1110px;
+    position: relative;
+    
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}  
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: rgb(157, 102, 6);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+    background-color: #bf3a3a;
+}  
+.Myslide{
+    width: 100%;
+    object-fit: contain;
+    
+}
+.hskill{
+    color: #AD4002;
+    font-size: 40px;
+    font-family: Holtwood One SC;
+    font-weight: 400;
+    z-index: 1;
+    word-wrap: break-word
+    
+
+}
+.bgaboutme{
+    position: absolute;
+    width: 1600px;
+    height: 750px;
+    left:  -200px;
+    z-index: 0;
+    top: 700px;
+}
+.bgcontact{
+    position: absolute;
+    left: -200px;
+    z-index: 0;
+}
+
+.slideshow{
+    position: absolute;
+    top: 1500px;
+}
+.containercontact{
+    position: absolute;
+    top: 2800px
+}
